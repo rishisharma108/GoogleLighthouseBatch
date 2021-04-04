@@ -1,0 +1,14 @@
+{
+    "url":["/ca/en/pc"],
+    "lighthouseFlags":{
+    "output":"json",
+        "disableDeviceEmulation":true
+    },
+    "env":["https://tun-r-hybris.lenovo.com","https://pre-c-hybris.lenovo.com"],
+    "devices":["desktop","mobile3G"],
+    "mongoDB":"mongodb://localhost:27017/lighthouse",
+    "fileDir":"D:/lighthousereport/Homepage",
+    "runType":"baseline",
+    "deviceType":"desktop",
+    "chromeFlags":["--headless"]
+}
